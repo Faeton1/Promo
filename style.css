@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif !important;;
+    background: wheat;
 }
 .menu ul li{
     display: inline;
@@ -23,7 +24,9 @@ body{
 }
 .slider{
 	height: 600px;
-	width: 100%;	
+	width: 100%;
+	background: #f48942;	
+	margin: 10px 0px;
 }
 .row p{
 	text-align: center;
