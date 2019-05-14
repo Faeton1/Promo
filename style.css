@@ -21,3 +21,10 @@ body{
 .ala{
 	height: 300px;
 }
+.slider{
+	height: 600px;
+	width: 100%;	
+}
+.row p{
+	text-align: center;
+}
