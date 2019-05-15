@@ -22,12 +22,7 @@ body{
 .ala{
 	height: 300px;
 }
-.slider{
-	height: 600px;
-	width: 100%;
-	background: #f48942;	
-	margin: 10px 0px;
-}
+
 .row p{
 	text-align: center;
 }
