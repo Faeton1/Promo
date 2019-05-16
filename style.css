@@ -30,3 +30,78 @@ body{
 .row p{
 	text-align: center;
 }
+
+.rowa{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-contact{
+    width: calc(100%/12*5 - 30px);
+    margin: 15px;
+	text-align:left;
+}
+.col-contact h3{
+    font-size: 32px;
+    margin-left: 25px;
+	margin-top: 0px;
+}
+.col-form{
+    box-sizing: border-box;
+    width: calc(100%/12*7 - 30px);
+    margin: 15px;
+}
+.col-form ul{
+    list-style: none;
+}
+
+input, textarea{
+	border: 1px solid #4a90e2;;
+    color: gray;
+    background: white;
+    border-radius: 5px;
+	outline: none;
+    resize:none;
+    margin-left: 50px;
+}
+.feedback_name, .feedback_surname, .feedback_mobile, .feedback_email{
+		padding: 5px 0px 5px 5px;
+    width: 250px;
+    height: 25px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.feedback_company{
+		padding: 5px 0px 5px 5px;
+	height: 25px;
+    width: 550px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.feedback_message{
+		padding: 5px 0px 5px 5px;
+    width: 550px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  height: 150px;
+}
+.col-form{
+    box-sizing: border-box;
+    width: calc(100%/12*7 - 30px);
+    margin: 15px;
+}
+.col-form ul{
+    list-style: none;
+}
+
+.col-contact{
+    width: calc(100%/12*5 - 30px);
+    margin: 15px;
+	text-align:left;
+}
+.col-contact h3{
+    font-size: 32px;
+    margin-left: 25px;
+	margin-top: 0px;
+}
