@@ -10,17 +10,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href="style.css" rel="stylesheet">
-            	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="slider.css">
         <script src="main.js"></script>
+        <script src="slider.js"></script>
     <title>Promo</title>
 </head>
 
 <body>
 
     <div class="container">
-        <div class="row no-gutters" style="padding-top:10px;">
+        <div class="row no-gutters menu" style="padding-top:10px;">
 
-            <div class="col-lg-3">
+            <div class="col-lg-2">
                 <img src="http://via.placeholder.com/275x150">
             </div>
             <div class="col-lg-9 menu" style="padding-top:80px;">
@@ -33,10 +35,19 @@
                         <li><button class="btn btn-default">Оставить заявку</button> </li>
                 </ul>
             </div>
-		<div class="slider">
-			
+		<div class="viewport">
+			<ul class="slidewrapper" data-current=0>
+				<li class="slide" style=";">
+					<div class="row no-gutters">
+						<img src="http://blok.rtsoft.ru/img/slide/new/RTSoft_BLOK_slides_01.png" alt="">
+					</div>
+				</li>
+				<li class="slide" style=""><img src="http://blok.rtsoft.ru/img/slide/new/RTSoft_BLOK_slides_02.png" alt=""></li>
+				<li class="slide" style=""><img src="http://blok.rtsoft.ru/img/slide/new/RTSoft_BLOK_slides_08.png" alt=""></li>
+			</ul>
 		</div>
-	
+		<a href='javascript: void(0)' id='prev_slide' class='arrows'>←</a>
+<a href='javascript: void(0)' id='next_slide' class='arrows'>→</a>
        	<div class="content"  >
 	    	<div class="row no-gutters">
 	    		<div class="col-lg-3">

@@ -1,6 +1,12 @@
 body{
-    font-family: 'Roboto', sans-serif !important;
-    background: wheat;
+    font-family: 'Roboto', sans-serif !important;;
+    background: white;
+}
+
+
+.container{
+    max-width: 1354px;
+    padding: 0px;
 }
 .menu ul li{
     display: inline;
@@ -21,12 +27,7 @@ body{
 .ala{
 	height: 300px;
 }
-.slider{
-	height: 600px;
-	width: 100%;
-	background: #f48942;	
-	margin: 10px 0px;
-}
+
 .row p{
 	text-align: center;
 }
