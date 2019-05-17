@@ -1,4 +1,4 @@
-var slideWidth=1100;
+var slideWidth=1354;
 var sliderTimer;
 $(function(){
 $('.slidewrapper').width($('.slidewrapper').children().size()*slideWidth);

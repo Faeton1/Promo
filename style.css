@@ -1,6 +1,12 @@
 body{
     font-family: 'Roboto', sans-serif !important;;
-    background: wheat;
+    background: white;
+}
+
+
+.container{
+    max-width: 1354px;
+    padding: 0px;
 }
 .menu ul li{
     display: inline;
